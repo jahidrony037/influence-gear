@@ -361,7 +361,12 @@ p small {
 
   .popular-cards {
     grid-template-columns: 1fr;
+    margin: 0 auto;
   }
+  .popular-card {
+    width: auto;
+  }
+
   .featured-container {
     flex-direction: column;
     gap: 20px;
